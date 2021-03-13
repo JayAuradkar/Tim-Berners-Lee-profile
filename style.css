@@ -2,7 +2,8 @@ body{
     margin:0;   
         padding-top: 800px;
     text-align: center;
-    background: #00eaff 
+    background: #00eaff;
+    z-index: 88;
 }
 .profile{
     width: 175px;
@@ -49,3 +50,11 @@ body{
 }
 #text{
     font-family: 'Paytone One', sans-serif;}
+#video{
+    background-color: linear-gradient(#00eaff 0%,#30cb1c 50%,rgba(219, 167, 27, 0.85)100%);
+    z-index: 91
+}
+html{
+    scroll-behavior: smooth;
+    
+}
